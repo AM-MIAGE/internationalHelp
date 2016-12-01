@@ -35,7 +35,7 @@
 	<label for="date">Birthdate</label><input id="date" type="text" name="date" placeholder="jj/mm/aaaa" class="form-control" required/>
 	<label for="nationalite">Nationality</label><input id="nationalite" type="text" name="Nationality" placeholder="Nationalité" class="form-control" required/>
 
-	<label for="mail">Mail</label><input id="mail" type="mail" name="mail" placeholder="mail" class="form-control" required/>
+	<label for="mail">Mail</label><input id="mail" type="email" name="mail" placeholder="mail" class="form-control" required/>
 	<label for="mdp">Password</label><input id="mdp" type="password" name="mdp" placeholder="Password" class="form-control" required/>
 	<label for="mdp2">Verify Password</label><input id="mdp2" type="password" name="mdp2" placeholder="Verify Password" class="form-control" required/>
 

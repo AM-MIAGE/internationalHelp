@@ -26,10 +26,13 @@
 
 <div class="container-fluid">
 	
+<?php if (!isset($_SESSION['user'])): ?>
+	
+
 <div class="row">
 <div class="form-group col-md-6 col-md-offset-3">
 <form action="../controller/connexion.php" method="post" accept-charset="utf-8">
-	<label for="mail">Mail</label><input id="mail" type="mail" name="mail" placeholder="mail" class="form-control" required/>
+	<label for="mail">Mail</label><input id="mail" type="email" name="mail" placeholder="mail" class="form-control" required/>
 	<label for="mdp">Password</label><input id="mdp" type="password" name="mdp" placeholder="Password" class="form-control" required/>
 
 	<input class="btn btn-danger" type="reset" value="Reset">
@@ -37,6 +40,11 @@
 </form>
 </div>
 </div>
+
+<a href="./inscription.php">Create account</a>
+
+<?php endif ?>
+
 
 </div>
 
