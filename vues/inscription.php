@@ -27,7 +27,7 @@
 	
 <div class="row">
 <div class="form-group col-md-6 col-md-offset-3">
-<form action="inscription" method="post" accept-charset="utf-8">
+<form action="../controller/inscriptionController.php" method="post" accept-charset="utf-8">
 		<label for="nom">Nom</label><input id="nom" type="text" name="nom" placeholder="Name" class="form-control" required/>
 	<label for="prenom">Prénom</label><input id="prenom" type="text" name="prenom" placeholder="prenom" class="form-control" required/>
 	<label for="date">Date de naissance</label><input id="date" type="text" name="date" placeholder="jj/mm/aaaa" class="form-control" required/>
