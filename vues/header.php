@@ -35,9 +35,14 @@
         </div>
         <button type="submit" class="btn btn-default">Submit</button>
       </form>
+
+      <?php if (isset($_SESSION['user'])): ?>
+        
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Déconnexion</a></li>
+        <li><a <?php echo "href=../controller/deconnexionController.php?user=".$_SESSION['user'] ?>>Déconnexion</a></li>
       </ul>
+    <?php endif ?>
+        
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>

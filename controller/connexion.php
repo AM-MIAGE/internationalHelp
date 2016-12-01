@@ -1,12 +1,18 @@
 <?php 
-	
+
 
 	//extract($_POST);
 
-	print_r($_POST);
+	extract($_POST);
 
 
+	session_start();
 
 
+	$_SESSION['user'] = $mail;
+
+
+	header("Location: ../vues/index.php");
+	die();
 
  ?>
