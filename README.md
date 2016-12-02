@@ -4,13 +4,13 @@
 =========================
 
 L’application Web fonctionne sur le principe de l’offre et de la demande. Toute personne peut émettre une demande. 
-De la même manière, n’importe qui peux y répondre. De la même manière qu’un stackOverflow, les réponses peuvent être approuvées 
+De la même manière, n’importe qui peut y répondre. De la même manière qu’un stackOverflow, les réponses peuvent être approuvées 
 ou désapprouvées afin d’éviter les mauvais comportements. De plus, il est possible de donner une traduction pour le problème 
 donné et/ou les réponses. Ces traductions aussi pourront être approuvées ou désapprouvées par la communauté. Un système de scoring et de 
 classement est présent afin d'inciter les gens d'aider.
 
 Pour ce qui est de l’interface nous essayons d’utiliser au maximum des images, afin que l’application soit compréhensible.
-Pour le peu de texte, nous utilisons l’anglais afin que l’interface soit lisible par un maximum de personne.
+Pour le peu de texte, nous utilisons l’anglais afin que l’interface soit lisible par un maximum de personnes.
 
 Le fait d’être approuvé augmente aussi le score de l’utilisateur concerné.  Ainsi, cela motive tout le monde pour apporter 
 du contenu pertinent.
