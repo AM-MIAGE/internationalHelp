@@ -39,8 +39,11 @@
       <?php if (isset($_SESSION['user'])): ?>
         
       <ul class="nav navbar-nav navbar-right">
+        <li><a href="./success.php">Success <span class="glyphicon glyphicon-glass" aria-hidden="true"></span>
+</a></li>
         <li><a <?php echo "href=../controller/deconnexionController.php?user=".$_SESSION['user'] ?>>Déconnexion</a></li>
       </ul>
+
     <?php endif ?>
         
     </div><!-- /.navbar-collapse -->

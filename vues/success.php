@@ -29,6 +29,11 @@
 	
 <div class="row">
 <div class="form-group col-md-6 col-md-offset-3">
+	<h1>Score</h1>
+
+
+	<h2>Badges</h2>
+
 
 </div>
 </div>
