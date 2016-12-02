@@ -41,7 +41,7 @@
 </div>
 </div>
 
-<a href="./inscription.php">Create account</a>
+<a href="./inscription.php" class="btn btn-default">Create account</a>
 
 <?php endif ?>
 

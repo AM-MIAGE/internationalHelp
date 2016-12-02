@@ -33,7 +33,7 @@
 		<label for="nom">Last Name</label><input id="nom" type="text" name="nom" placeholder="Name" class="form-control" required/>
 	<label for="prenom">First Name</label><input id="prenom" type="text" name="prenom" placeholder="First Name" class="form-control" required/>
 	<label for="date">Birthdate</label><input id="date" type="text" name="date" placeholder="jj/mm/aaaa" class="form-control" required/>
-	<label for="nationalite">Nationality</label><input id="nationalite" type="text" name="Nationality" placeholder="Nationalité" class="form-control" required/>
+	<label for="nationalite">Nationality</label><input id="nationalite" type="text" name="nationalite" placeholder="Nationalité" class="form-control" required/>
 
 	<label for="mail">Mail</label><input id="mail" type="email" name="mail" placeholder="mail" class="form-control" required/>
 	<label for="mdp">Password</label><input id="mdp" type="password" name="mdp" placeholder="Password" class="form-control" required/>

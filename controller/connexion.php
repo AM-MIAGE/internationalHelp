@@ -8,8 +8,11 @@
 
 	session_start();
 
+	include "../model/database.php";
 
-	$_SESSION['user'] = $mail;
+	$user = getUser($mail, md5($mdp));
+
+	$_SESSION['user'] = $user['mail'];
 
 
 	header("Location: ../vues/index.php");
