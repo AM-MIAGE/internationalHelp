@@ -44,5 +44,6 @@ Pour le partage de sources et/ou l'échange de données, nous avons utilisé les
 2. Importer le fichier SQL présent dans une base de données appelées "internationalHelp".
 3. Placer le dossier internationalHelp à la racine de votre serveur PHP.
 4. Penser à modifier le fichier internationalHelp/model/database.php pour que les identifiants de la BDD concordent.
+5. Commencer par se créer un compte.
 
 
